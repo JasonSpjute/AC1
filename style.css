@@ -1,0 +1,40 @@
+:root{
+  --dark: rgb(28, 28, 139);
+}
+html {
+  margin: -8px;
+  width: 100%;
+}
+
+header {
+  color: white;
+  Background-color: var(--dark);
+  text-align: Center;
+  border: 3px solid black;
+  margin: 0;
+}
+
+body {
+  background-color: #f1f3fc;
+  width:100%;
+}
+
+footer {
+  background-color: var(--dark);
+  position: fixed;
+  bottom: 0;
+  height: 10em;
+  width: 100%;
+  border: 5px solid black;
+}
+
+
+.float-child1 {
+  width: 70%;
+  float: left;
+}
+
+.float-child2 {
+  width: 30%;
+  float: right;
+}
