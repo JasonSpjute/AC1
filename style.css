@@ -22,19 +22,25 @@ body {
 footer {
   background-color: var(--dark);
   position: fixed;
+  
   bottom: 0;
-  height: 10em;
+  height: 5em;
   width: 100%;
   border: 5px solid black;
 }
 
-
-.float-child1 {
-  width: 70%;
-  float: left;
+.container{
+  margin: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.float-child2 {
+.s1{
   width: 30%;
-  float: right;
+}
+
+.s2{
+  width: 20%;
 }
